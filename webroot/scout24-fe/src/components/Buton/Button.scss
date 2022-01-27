@@ -1,0 +1,23 @@
+.button {
+  font-weight: bold;
+  font-size: 12px;
+  text-shadow: 0 1px 0 #c04131;
+  border: 1px solid #dd4b39;
+  border-radius: 2px;
+  outline: none;
+  color: white;
+  background-image: linear-gradient(#dd4b39, #d14836);
+  cursor: pointer;
+  &:hover {
+    border: 1px solid #af301f;
+    background-image: linear-gradient(#dd4b39, #c53727);
+  }
+  &:active {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(#d74736, #ad2719);
+  }
+
+  .text {
+    padding: 5px 10px;
+  }
+}
